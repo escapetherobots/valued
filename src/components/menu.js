@@ -21,8 +21,8 @@ class Menu extends Component{
           <Navbar inverse fixedTop collapseOnSelect>
             <Navbar.Header>
               
-              <Navbar.Brand>
-                <a onClick={this.goToRoot}>
+              <Navbar.Brand >
+                <a style={{cursor: 'pointer'}} onClick={this.goToRoot}>
                   React-Bootstrap
                 </a>
               </Navbar.Brand>

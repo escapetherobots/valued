@@ -12,13 +12,16 @@ import BooksForm from './booksForm';
 import Cart from './cart';
 import AnimationTest from './animationTest';
 import Modal from './modal';
-import StudentList from './studentList';
 
+import StudentList from './studentList';
+import StudentDetail from './studentDetail';
 
 //ACTIONS
 import { getBooks } from '../../actions/bookActions';
 
 import {Grid, Col, Row, Button, Well} from 'react-bootstrap';
+
+
 
 class BooksList extends Component {
 
@@ -80,6 +83,13 @@ class BooksList extends Component {
 					<Row>
 						<Col>
 							<StudentList />
+						</Col>
+					</Row>
+				</Well>
+				<Well>
+					<Row>
+						<Col>
+							<StudentDetail />
 						</Col>
 					</Row>
 				</Well>

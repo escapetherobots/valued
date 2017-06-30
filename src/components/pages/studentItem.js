@@ -11,13 +11,13 @@ class StudentItem extends Component {
 		let {name, grade, age} = this.props;
 
 		return (
-			<Well>
-				<Row>
-					<Col xs={12}>
-						<h3>{name}</h3>
-						<p>{grade}</p>
-						<p>{age}</p>
-						<Button onClick={this.handleAddToCart} bsStyle="primary">View Data</Button>
+			<Well style={{backgroundColor: 'white'}}>
+				<Row >
+					<Col xs={12} md={6}>
+						<h4>{name}</h4>
+					</Col>
+					<Col xs={12} md={6}>
+						<Button style={{width: '100%'}} onClick={this.handleAddToCart} bsStyle="info">View Data</Button>
 					</Col>
 				</Row>
 			</Well>

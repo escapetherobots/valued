@@ -1,7 +1,7 @@
 export const studentData = [
 	{
 		_id: "asda123bobby",
-		firstName: 'bobby',
+		firstName: 'Bobby',
 		lastName: 'Smith',
 		age: 13,
 		grade: 7,
@@ -36,6 +36,7 @@ export const studentData = [
 		}
 	},
 	{
+		_id: '345abs3jojo',
 		firstName: 'Jojo',
 		lastName: 'Mo',
 		age: 14,
@@ -62,6 +63,42 @@ export const studentData = [
 				scaledScore: 891,
 				percentileRank: 80,
 				gradeEquivalent: 9
+			}
+		},
+		grades: {
+			math: {},
+			languageArts: {}
+
+		}
+	},
+	{
+		_id: '345abs3beemo',
+		firstName: 'Beemo',
+		lastName: 'Sheemo',
+		age: 13,
+		grade: 8,
+		mathTeacer: 'Pierce',
+		recMathTeacher: '',
+		languageArtsTeacher: 'Pitt',
+		recLanguageArtsTeacher: '',
+		sage: {
+			math: {
+				proficiency: 3,
+			},
+			languageArts: {
+				proficiency: 3
+			}
+		},
+		star: {
+			math: {
+				scaledScore: 844,
+				percentileRank: 62,
+				gradeEquivalent: 7
+			},
+			languageArts: {
+				scaledScore: 821,
+				percentileRank: 74,
+				gradeEquivalent: 8
 			}
 		},
 		grades: {

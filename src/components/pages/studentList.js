@@ -31,21 +31,12 @@ class StudentList extends Component {
 
 		return (
 			<Grid>
-				<Well>
+				
 				<Row>
 					<Col >
 						{studentList}
 					</Col>
 				</Row>
-				</Well>
-
-				<Well>
-				<Row>
-					<Col >
-						StudentList
-					</Col>
-				</Row>
-				</Well>
 			</Grid>
 		);
 	}
