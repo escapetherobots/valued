@@ -1,4 +1,4 @@
-React Todo App with Redux and Firebase
+ValuEd: Education App
 ----------------------------------
 ```
 1. npm install

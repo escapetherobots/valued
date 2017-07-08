@@ -16,24 +16,25 @@ class StudentList extends Component {
 	}
 
 	render(){
-		
 		const studentList = this.props.students.map( (item) => {
 			return (
 				<div key={item._id}>
 					<StudentItem
+						id={item._id}
 						name={`${item.firstName} ${item.lastName}`}
 						grade={`some grade`}
 						age={item.age}
 					/>
 				</div>
 			);
-		})
+		});
 
 		return (
 			<Grid>
 				
 				<Row>
 					<Col >
+						<h1>The Student List Component</h1>
 						{studentList}
 					</Col>
 				</Row>

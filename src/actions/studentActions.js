@@ -6,6 +6,14 @@ export const getStudents = () => {
 	}
 }
 
+export const showInDetailView = (/*id*/id) => {
+	console.warn('ACTION SHOW DETAIL:::',id);
+	return {
+		type: "SHOW_IN_DETAIL_VIEW",
+		payload: id
+	}
+}
+
 
 export const addStudents = (/*Arr[]*/studentArr) => {
 	return {

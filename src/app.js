@@ -18,9 +18,11 @@ import * as bookActions from './actions/bookActions';
 
 // COMPONENTS
 import BooksList from './components/pages/booksList';
+import Dashboard from './components/pages/dashboard';
 import Cart from './components/pages/cart';
 import BooksForm from './components/pages/booksForm';
 import StudentList from './components/pages/studentList'
+import CSSGridExample from './components/pages/cssGridExample';
 import Main from './main';
 
 // SUBSCRIBE TO CHANGES IN STATE
@@ -35,10 +37,11 @@ const Routes = (
 	<Provider store={store}>
 		<Router history={browserHistory}>
 			<Route path="/" component={Main}>
-				<IndexRoute component={BooksList} />
+				<IndexRoute component={Dashboard} />
 				<Route path="/admin" component={BooksForm}/>
 				<Route path="/cart" component={Cart}/>
 				<Route path="/studentList" component={StudentList}/>
+				<Route path="/CSS-Grid-Example" component={CSSGridExample}/>
 
 			</Route>
 		</Router>

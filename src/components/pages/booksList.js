@@ -15,6 +15,7 @@ import Modal from './modal';
 
 import StudentList from './studentList';
 import StudentDetail from './studentDetail';
+import Graph from './graph';
 
 //ACTIONS
 import { getBooks } from '../../actions/bookActions';
@@ -90,6 +91,13 @@ class BooksList extends Component {
 					<Row>
 						<Col>
 							<StudentDetail />
+						</Col>
+					</Row>
+				</Well>
+				<Well>
+					<Row>
+						<Col>
+							<Graph />
 						</Col>
 					</Row>
 				</Well>

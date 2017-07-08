@@ -21,7 +21,7 @@ module.exports = {
 			},
 			{
 				test:/\.csv$/,
-				loader: 'dsv'
+				loader: 'dsv-loader'
 			}
 		]
 	}
